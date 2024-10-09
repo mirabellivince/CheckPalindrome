@@ -9,7 +9,7 @@ int check_palindrome(char string[])
     char *back = string;
     back += len;
     
-    while (front != back)
+    while (front < back)
     {
         if (*front != *back)
         {
